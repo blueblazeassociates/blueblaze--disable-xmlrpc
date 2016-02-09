@@ -1,0 +1,18 @@
+{
+  "name" : "blueblazeassociates/blueblaze--disable-xmlrpc",
+  "description" : "Blue Blaze Disable XML-RPC.  This plugin disables WordPress's XML-RPC system.",
+  "type" : "wordpress-muplugin",
+  "homepage" : "https://github.com/blueblazeassociates/blueblaze--disable-xmlrpc",
+  "license" : "GPL-2.0+",
+  "authors" : [{
+    "name" : "Ed Gifford",
+    "homepage" : "http://www.blueblazeassociates.com",
+    "role" : "Author/Creator",
+    "email" : "egifford@blueblazeassociates.com"
+    }
+  ],
+  "keywords" : [
+  ],
+  "replace": {
+  }
+}
