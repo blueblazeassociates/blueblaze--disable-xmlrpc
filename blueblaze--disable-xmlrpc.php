@@ -1,6 +1,6 @@
 <?php
 /**
- * Blue Blaze Favicons
+ * Blue Blaze Disable XML-RPC
  *
  * @author  Blue Blaze Associates
  * @license GPL-2.0+
@@ -11,7 +11,7 @@
  * Plugin Name:       Blue Blaze Disable XML-RPC
  * Plugin URI:        https://github.com/blueblazeassociates/blueblaze--disable-xmlrpc
  * Description:       This plugin disables WordPress's XML-RPC system.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Blue Blaze Associates
  * Author URI:        http://www.blueblazeassociates.com
  * License:           GPL v2 or later
@@ -19,6 +19,6 @@
  * GitHub Plugin URI: https://github.com/blueblazeassociates/blueblaze--disable-xmlrpc
  * Requires WP:       4.5
  * Requires PHP:      5.6
-*/
+ */
 
 add_filter( 'xmlrpc_enabled', '__return_false' );
